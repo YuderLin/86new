@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+.html{
+    box-sizing:border-box;
+}
+*,*:before,*after{
+    box-sizing:inherit;
+}
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%; 
+}
+.container{
+    position: relative;
+    width: 1280px;
+ }
+
+.head{
+    top: 0;
+    width: 1280px;
+}
+.headbg{
+    opacity: 85%;
+    width: 1280px;
+    height: 219px;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    position: absolute;
+    margin-left: -688px;
+    margin-top: 18px;
+    height: 182px;
+    width: 96px;
+    opacity: 80%;
+}
+.body{
+    margin-top:-10px;
+}
+.bgB{
+    opacity: 30%;
+    padding: 0;
+    width: 1280px;
+    height: 1450px;
+
+}
+.nav{
+    position: absolute;
+    top: 0;
+    margin-top: 220px;
+    width: 1280px;
+    height: 65px;
+    background-color: #5e3d3d;
+    display: flex;
+    flex-direction: row;
+
+}
+.news{
+   font-size: 35px; 
+   margin-left: 67px;
+   color: #FFF;
+   margin-top: 16px;
+   font-family: 'Share Tech Mono', monospace;
+   text-decoration: none;
+}
+.news:hover{
+    color: #F9C2C2;
+}
+.news-1{
+    width: 1px;
+    height: 40px;
+    background-color: #c4c4c4;  
+    margin-top: 16px;
+    margin-left: 44px;
+}
+.introduction{
+   font-size: 35px; 
+   margin-left: 27px;
+   color: #FFF;
+   margin-top: 16px;
+   font-family: 'Share Tech Mono', monospace;
+   text-decoration: none;
+}
+.introduction:hover{
+    color: #F9C2C2;
+}
+.in-1{
+    width: 1px;
+    height: 40px;
+    background-color: #c4c4c4;  
+    margin-top: 16px;
+    margin-left: 27px;
+}
+.character{
+    font-size: 35px; 
+    margin-left: 37px;
+    color: #FFF;
+    margin-top: 16px;
+    font-family: 'Share Tech Mono', monospace;
+    text-decoration: none;
+}.character:hover{
+    color: #F9C2C2;
+}
+.ch-1{
+    width: 1px;
+    height: 40px;
+    background-color: #c4c4c4;  
+    margin-top: 16px;
+    margin-left: 32px;
+}
+.staff{
+    font-size: 35px; 
+    margin-left: 22px;
+    color: #FFF;
+    margin-top: 16px;
+    font-family: 'Share Tech Mono', monospace;
+    text-decoration: none;
+}
+.staff:hover{
+    color: #F9C2C2;
+}
+.sta-1{
+    width: 1px;
+    height: 40px;
+    background-color: #c4c4c4;  
+    margin-top: 16px;
+    margin-left: 25px;
+}   
+.music{
+    font-size: 35px; 
+    margin-left: 30px;
+    color: #FFF;
+    margin-top: 16px;
+    font-family: 'Share Tech Mono', monospace;
+    text-decoration: none;
+}
+.music:hover{
+    color: #F9C2C2;
+}
+.mu-1{
+    width: 1px;
+    height: 40px;
+    background-color: #c4c4c4;  
+    margin-top: 16px;
+    margin-left: 31px;
+} 
+.book{
+    font-size: 35px; 
+    margin-left: 44px;
+    color: #FFF;
+    margin-top: 16px;
+    font-family: 'Share Tech Mono', monospace;
+    text-decoration: none; 
+}
+.book:hover{
+    color: #F9C2C2;
+}
+.newway{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    margin-left: 550px;
+    margin-top: 300px;
+    width: 180px;
+    height: 80px;
+    background-color: #923131;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 45px;
+    color:#FFF;
+    text-align:center;
+    line-height: 85px;
+}
+.newbox{
+    position: absolute;
+    top: 0;
+    margin-top: 356px;
+    margin-left: 62px;
+    width: 1156px;
+    height: 243px;
+    background-color: #BCACAC;
+}
+.date1{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 32px;
+    margin-top: 53px;
+    color: #5c5b5b;
+    margin-left: 10px;
+}
+.date2{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 32px;
+    margin-top: 20px;
+    color: #5c5b5b;
+    margin-left: 10px;
+}
+.date3{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 32px;
+    margin-top: 15px;
+    color: #5c5b5b;
+    margin-left: 10px;
+}
+.dl-1{
+    width: 1120px;
+    height: 1px;
+    background-color: #000;
+    margin-top: 15px;
+    padding: 0;
+}
+.d2-1{
+    width: 1120px;
+    height: 1px;
+    background-color: #000;
+    margin-top: 10px;
+    padding: 0;
+}
+.morenew{
+    width: 271px;
+    height: 57px;
+    background-color: #5e3d3d;
+    margin-left: 850px;
+}
+.more-n-text{
+    font-family: 'Share Tech Mono', monospace;
+    position: absolute;
+    font-size: 35px;
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.more-n-text:hover{
+    color: #F9C2C2;
+}
+.moreline{
+    position: absolute;
+    width: 5px;
+    height: 35px;
+    background-color: #fff;
+    margin-left: 212px;
+    margin-top: 10px;
+}
+.addmore{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 48px;
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 225px;
+    font-weight: 700;
+}  
+.addmore:hover{
+    color: #F9C2C2;
+}
+.introductionmain{
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        margin-top: 666px;
+        margin-left: 481px;
+        height: 80px;
+        width: 350px;
+        background-color: #923131;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 45px;
+        color:#FFF;
+        text-align:center;
+        line-height: 85px;
+}
+.intbg{  
+    opacity: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 705px;
+    margin-left: 65px;
+}
+.intimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 770px;
+    margin-left: 81px;
+}
+.intimg:hover{
+    width: 538px;
+    height: 358px;
+}
+.intword{
+    font-family: 'Share Tech', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 584px;
+    height: 300px;
+    margin-top: 755px;
+    margin-left: 625px;
+    font-size: 20px;
+    color: #F9C2C2;
+}
+.intword:hover{
+    color: #FFF;
+}
+.moreint{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 1130px;
+    margin-left: 910px;
+    width: 271px;
+    height: 57px;
+    background-color: #5e3d3d;
+}
+.morestory{
+    font-family: 'Share Tech Mono', monospace;
+    position: absolute;
+    font-size: 35px;
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.morestory:hover{
+    color: #F9C2C2;
+}
+.in-more-line{
+    position: absolute;
+    width: 5px;
+    height: 35px;
+    background-color: #fff;
+    margin-left: 212px;
+    margin-top: 10px;
+}
+.charactermain{
+    position: absolute;
+    top: 0;
+    margin-top: 1190px;
+    margin-left:  62px;
+    height: 80px;
+    width: 284px;
+    background-color: #923131;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 45px;
+    color:#FFF;
+    text-align:center;
+    line-height: 85px;
+}
+.charall{
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+    opacity: 85%;
+    width: 1048px;
+    height: 320px;
+    position: absolute;
+    top: 0;
+    margin-top: 1285px;
+    margin-left: 130px;
+}
+.Kurena{
+    background-image: url(img/Kurena_1.png);
+    background-size: cover;
+    width: 135px;
+    height: 320px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.Kurena:hover{
+    background-image: url(img/Kurena-hover.png);
+}
+.Anju{
+    background-image: url(img/Anju_1.png);
+    background-size: cover;
+    width: 135px;
+    height: 320px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.Anju:hover{
+    background-image: url(img/Anju-hover.png);
+}
+.Lena{
+    background-image: url(img/Lena_1.png);
+    background-size: cover;
+    width: 135px;
+    height: 320px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.Lena:hover{
+    background-image: url(img/Lena-hover.png);
+}
+.Shin{
+    background-image: url(img/Shin_1.png);
+    background-size: cover;
+    width: 135px;
+    height: 320px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.Shin:hover{
+    background-image: url(img/Shin-hover.png);
+}
+.Raiden{
+    background-image: url(img/Raiden_1.png);
+    background-size: cover;
+    width: 135px;
+    height: 320px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.Raiden:hover{
+    background-image: url(img/Raiden-hover.png);
+}
+.Theo{
+    background-image: url(img/Theo_1.png);
+    background-size: cover;
+    width: 135px;
+    height: 320px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.Theo:hover{
+    background-image: url(img/Theo-hover.png);
+}
+.footer{
+    padding: 0 0 5 0px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    margin-top: 1620px;
+    width: 1280px;
+    height: 50px;
+    background-color: #5e3d3d;
+}
+.fo{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 25px; 
+    color: #FFF;
+}
+.reference{
+    margin-left: 62px;
+    margin-top: 12px;
+    text-decoration: none;
+}
+.reference:hover{
+    color: #F9C2C2;
+}
+.copyright{
+    margin-left: 65px;
+    margin-top: 12px;
+    text-decoration: none;
+}
+.copyright:hover{
+    color: #F9C2C2;
+}
+.privacy{
+    margin-left: 70px;
+    margin-top: 12px;
+    text-decoration: none;
+}
+.privacy:hover{
+    color: #F9C2C2;
+}
+.f-line1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 215px;
+    background-color: #FFF;
+}
+.f-line2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 400px;
+    background-color: #FFF;
+}
+.foword{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 15px;
+    color: #FFF;
+    margin-left: 932px;
+    margin-top: 12px;
+}
